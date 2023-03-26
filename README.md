@@ -78,7 +78,7 @@ https://xxx.onrender.com/
 
 
 
-### 4. 和Vercel版本的差別，注意Start Command要改為gunicorn config.wsgi:application來啟動。（一個坑，可以省你很多時間）
+### 4. 和Vercel版本的差別，注意Start Command要改為uvicorn main:app --host 0.0.0.0 來啟動。（一個坑，可以省你很多時間）
 
 <div align="center">
   <img src="demo/render_uvicorn.png" width="600"/>
